@@ -1,0 +1,116 @@
+{
+  "config": {
+    "configFile": "D:\\Workspaces\\playwright\\playwright.config.ts",
+    "rootDir": "D:/Workspaces/playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 5179.620999991894
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonreports/jsonreport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFile": "htmlreports/htmlreport.html"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Workspaces/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "D:/Workspaces/playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/basicinteraction.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.36.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\basicinteraction.test.ts",
+      "file": "tests/basicinteraction.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "login test demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3266,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Please enter your Message\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-07-21T16:59:26.836Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Workspaces\\playwright\\test-results\\tests-basicinteraction-login-test-demo\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "955916e1d65aa80ba13f-cf4970996690023c17eb",
+          "file": "tests/basicinteraction.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

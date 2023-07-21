@@ -18,11 +18,10 @@ test("login test demo",async() => {
    await page.fill("input[name='password']","agaran2417");
    await page.click("input[value='Login']");
 
-   await page.waitForTimeout(4000);
+//    await page.waitForTimeout(4000);
    const newcontext=await browser.newContext();
    const page1=await newcontext.newPage();
    await page1.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account");
 
-   await page1.waitForTimeout(4000);
 
 })
